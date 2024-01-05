@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import ChromeDinoGame from "react-chrome-dino";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="heading-box">
+         <img src="https://chrome-dino.co/wp-content/uploads/2022/10/chrome-dino-logo.png" alt="DINO GAME"></img>
+  
+      </div>      
+      <div className="game">
+        <ChromeDinoGame />
+  
+      </div>
+      <div className="bottom-box">
+
+      <img className="bottom" src="https://art.pixilart.com/55abfeff259a667.png" alt=" press SPACE to start"></img>
+
+
+      </div>
     </div>
   );
 }
-
-export default App;

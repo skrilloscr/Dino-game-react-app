@@ -1,0 +1,18 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .heading-box {
+    background-color: white;
+    padding: 10px;
+    /* border: 2px dotted black; */
+    text-align: center;
+    width: 600px;
+    position: relative;
+    left: 27%;
+}
+.bottom{
+    width: 400px;
+    height: 200px;
+}
